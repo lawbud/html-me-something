@@ -1,34 +1,26 @@
 body {
-    padding-left: 11em;
-    font-family: Georgia, "Times New Roman",
-          Times, serif;
-    color: purple;
-    background-color: #d8da3d }
-  ul.navbar {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    top: 2em;
-    left: 1em;
-    width: 9em }
-  h2 {
-    font-family: Comic Sans MS, Geneva, Arial,
-          SunSans-Regular, sans-serif;
-          color: purple; }
-  ul.navbar li {
-    background: white;
-    margin: 0.5em 0;
-    padding: 0.3em;
-    border-right: 1em solid black }
-  ul.navbar a {
-    text-decoration: none }
-  a:link {
-    color: blue }
-  a:visited {
-    color: purple }
-  address {
-    margin-top: 1em;
-    padding-top: 1em;
-    border-top: thin dotted }
-  
+  padding: 1.5rem 10rem; 
+  font-family: Georgia, "Times New Roman", serif;
+  color: purple;
+  background-color: #d8da3d;
+}
+h1 {
+  color: rgb(50, 206, 76); 
+}
+h2 {
+  color: purple; 
+}
+header {
+  border: .5rem solid blue;
+  background-color: rgb(240, 32, 32);
+}
+img {
+  margin: .5rem 1rem;
+}
+.comic {
+  font-family: "Comic Sans MS", Arial, sans-serif;
+}
+#link {
+  border: .5rem solid rgb(231, 49, 161);
+  display: inline-block; 
+}
